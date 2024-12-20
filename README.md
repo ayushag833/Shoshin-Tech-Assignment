@@ -1,3 +1,5 @@
+It is responsive on Tablet Screens
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
