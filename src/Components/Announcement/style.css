@@ -5,12 +5,15 @@
   border-radius: 10px;
   border: 1px solid rgb(193, 187, 187);
   background-color: rgb(246, 243, 243);
-  display: flex;
   margin: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
+}
+
+.div-1 {
+  width: 100%;
 }
 
 .anncard img {
@@ -20,8 +23,8 @@
 
 .heading-1 {
   font-size: 1.5rem;
-  font-weight: 500;
-  width: 30rem;
+  font-weight: 400;
+  width: 85%;
 }
 
 .text-1 {

@@ -66,18 +66,18 @@ const Dashboard = () => {
             </p>
           </div>
           <AnnouncementCard
-            heading="Total Employees"
+            heading="Outing schedule for every departement"
             text="5 minutes ago"
             src={fill}
           />
           <AnnouncementCard
-            heading="Total Employees"
-            text="5 minutes ago"
+            heading="Meeting HR Department"
+            text="Yesterday, 12:30 PM"
             src={notfill}
           />
           <AnnouncementCard
-            heading="Total Employees"
-            text="5 minutes ago"
+            heading="IT Department need two more talents for UX/UI Designer position"
+            text="Yesterday, 09:15 AM"
             src={notfill}
           />
           <p className="announcementText2">See All Announcement</p>

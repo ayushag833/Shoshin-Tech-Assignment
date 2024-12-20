@@ -9,6 +9,8 @@ import ic_recruitment from "../../assets/ic_recruitment.png";
 import ic_settings from "../../assets/ic_settings.png";
 import ic_support from "../../assets/ic_support.png";
 import "./style.css";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { RxCross2 } from "react-icons/rx";
 
 const Sidebar = () => {
   const [isExpanded, setIsExpanded] = useState(window.innerWidth > 834);
@@ -32,12 +34,12 @@ const Sidebar = () => {
       <div className="ham">
         {!isExpanded && (
           <div className="hamburger" onClick={toggleSidebar}>
-            ☰
+            <RxHamburgerMenu />
           </div>
         )}
         {isExpanded && (
-          <div className="hamburger" onClick={toggleSidebar}>
-            ✖
+          <div className="hamburger cross" onClick={toggleSidebar}>
+            <RxCross2 />
           </div>
         )}
       </div>

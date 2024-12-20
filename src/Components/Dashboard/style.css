@@ -1,5 +1,6 @@
 .dashboard-container {
   display: flex;
+  margin-bottom: 2rem;
 }
 
 .dashboardText {
@@ -38,8 +39,8 @@
   margin-left: 2rem;
   color: grey;
   font-size: 1.3rem;
-  margin-bottom: 1.2rem;
-  margin-top: 1.2rem;
+  margin-bottom: 1.7rem;
+  margin-top: 1.7rem;
 }
 
 .card-container-4 {
@@ -155,6 +156,7 @@
 @media screen and (max-width: 834px) {
   .dashboard-container {
     flex-direction: column;
+    margin-left: 6rem;
   }
   .box-2 {
     margin-top: 2rem;
@@ -197,8 +199,5 @@
   }
   .announcementDate {
     font-size: 1.4rem;
-  }
-  .dashboard-container {
-    margin-left: 6rem;
   }
 }

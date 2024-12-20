@@ -14,10 +14,14 @@
 }
 
 .hamburger {
-  font-size: 2rem;
   cursor: pointer;
   margin-left: 9rem;
-  font-size: 2.8rem;
+  font-size: 3rem;
+  margin-top: 0.8rem;
+}
+
+.hamburger.cross {
+  margin-left: 19rem;
 }
 
 .large-logo {
@@ -62,7 +66,6 @@ ul li {
     width: 9rem;
     top: 0;
     left: 0;
-    /* height: 100%; */
     z-index: 1000;
     padding: 2rem;
   }
