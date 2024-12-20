@@ -1,0 +1,86 @@
+.sidebar {
+  width: 24.2rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: rgb(246, 243, 243);
+  transition: width 0.3s ease;
+}
+
+.sidebar.collapsed {
+  width: 9rem;
+  padding: 2rem;
+}
+
+.hamburger {
+  font-size: 2rem;
+  cursor: pointer;
+  margin-left: 9rem;
+  font-size: 2.8rem;
+}
+
+.large-logo {
+  width: 12rem;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.small-logo {
+  width: 6rem;
+  margin-left: -1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: grey;
+  gap: 2rem;
+}
+
+.textBox {
+  color: grey;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  white-space: nowrap;
+}
+
+.ham {
+  display: none;
+}
+
+@media screen and (max-width: 834px) {
+  .sidebar {
+    width: 9rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+    padding: 2rem;
+  }
+
+  .sidebar.expanded {
+    width: 18rem;
+  }
+
+  .ham {
+    display: block;
+  }
+
+  .sidebar.collapsed ul li p {
+    display: none;
+  }
+
+  .sidebar.collapsed ul li img {
+    display: block;
+  }
+}

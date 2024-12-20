@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+
+.container-2 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 100%;
+}

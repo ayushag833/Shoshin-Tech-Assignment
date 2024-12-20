@@ -1,0 +1,20 @@
+.card {
+  width: 20.4rem;
+  height: 13.6rem;
+  padding: 1.5rem;
+  padding-left: 2rem;
+  border-radius: 5px;
+}
+
+.heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.number {
+  font-size: 3.6rem;
+}
+
+.text {
+  font-size: 1.6rem;
+}

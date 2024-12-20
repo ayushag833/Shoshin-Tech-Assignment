@@ -1,0 +1,204 @@
+.dashboard-container {
+  display: flex;
+}
+
+.dashboardText {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.card-container-1 {
+  width: 64rem;
+  border: 1px solid rgb(193, 187, 187);
+  border-radius: 5px;
+  margin-top: 3rem;
+}
+
+.card-container-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container-3 {
+  width: 42.7rem;
+  border: 1px solid rgb(193, 187, 187);
+  border-radius: 5px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sch-text {
+  margin-left: 2rem;
+  color: grey;
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.card-container-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.announcementText {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.announcementDate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+  margin-top: 1.8rem;
+  border: 1px solid rgb(193, 187, 187);
+  border-radius: 3px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 2.5rem;
+}
+
+.announcementDate p {
+  font-size: 1.1rem;
+  color: rgb(126, 123, 123);
+}
+
+.announcementDate img {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.announcementText2 {
+  border-top: 1px solid rgb(193, 187, 187);
+  color: red;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.box-2 {
+  margin-top: 7.5rem;
+  margin-left: 2rem;
+}
+
+.recently-activity {
+  width: 42.7rem;
+  height: 25.8rem;
+  border-radius: 8px;
+  background-color: #161e54;
+  color: white;
+  padding: 3rem;
+  padding-top: 2rem;
+}
+
+.recently-activity h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  background-color: #1b204a;
+}
+
+.recently-activity h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.recently-activity h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.recently-activity h4 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: rgb(188, 184, 184);
+}
+
+.recently-activity p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  color: rgb(188, 184, 184);
+}
+
+.recently-activity div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.recently-activity button {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: white;
+  padding: 1rem;
+  background-color: #ff5151;
+  border-radius: 4px;
+  width: 13.9rem;
+  height: 38px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 834px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+  .box-2 {
+    margin-top: 2rem;
+    margin-left: 0;
+    display: flex;
+  }
+  .recently-activity {
+    width: 25rem;
+    height: 35rem;
+  }
+  .recently-activity div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+  }
+  .recently-activity h2 {
+    font-size: 1.7rem;
+  }
+  .recently-activity h3 {
+    font-size: 1.3rem;
+    margin-left: -10px;
+  }
+  .recently-activity button {
+    margin-left: -40px;
+    margin-top: 10px;
+  }
+  .card-container-3 {
+    width: 38rem;
+    border: 1px solid rgb(193, 187, 187);
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+  .small-container {
+    overflow: hidden;
+    height: 32rem;
+  }
+  .announcementText {
+    font-size: 1.5rem;
+  }
+  .announcementDate {
+    font-size: 1.4rem;
+  }
+  .dashboard-container {
+    margin-left: 6rem;
+  }
+}
